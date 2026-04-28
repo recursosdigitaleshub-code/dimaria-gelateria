@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" width="320" height="140">
+  <defs>
+    <style>
+      .brand { font-family: 'Playfair Display', 'Times New Roman', serif; font-weight: 800; fill: #1A1A1A; letter-spacing: 0.04em; }
+      .tag   { font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 500; fill: #4A4A4A; letter-spacing: 0.32em; }
+    </style>
+  </defs>
+  <text x="160" y="68" text-anchor="middle" class="brand" font-size="56">DIMARIA</text>
+  <text x="160" y="98" text-anchor="middle" class="tag" font-size="13">GELATO  +  COFFEE</text>
+  <circle cx="138" cy="118" r="6" fill="#008C45"/>
+  <circle cx="160" cy="118" r="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1"/>
+  <circle cx="182" cy="118" r="6" fill="#CD212A"/>
+</svg>

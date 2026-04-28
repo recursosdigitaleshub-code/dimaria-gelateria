@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimaria Gelateria | Pioneros del gelato artesanal en Medellín</title>
+  <meta name="description" content="Gelateria Dimaria — Pioneros del gelato artesanal italiano en Medellín. Sabores auténticos, sin químicos, sin conservantes, hechos con amor cada día. Laureles, Medellín. Domicilios por Rappi.">
+  <meta name="keywords" content="gelato Medellín, helado artesanal Medellín, gelateria Laureles, helado italiano Medellín, gelato pistacho Medellín, Dimaria">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dimaria Gelateria | Pioneros del gelato artesanal en Medellín">
+  <meta property="og:description" content="Gelato auténtico italiano hecho con amor. Sin químicos, sin conservantes. Laureles - Estadio, Medellín.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dimariagelato.com">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Dimaria Gelateria">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Schema.org IceCreamShop -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "IceCreamShop",
+    "name": "Dimaria Gelateria",
+    "description": "Pioneros del gelato artesanal italiano en Medellín. Productos elaborados diariamente con ingredientes premium, sin químicos, sin conservantes ni colorantes.",
+    "url": "https://dimariagelato.com",
+    "telephone": "+573195350565",
+    "image": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=1200&q=80",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Cra 71A #5-13",
+      "addressLocality": "Medellín",
+      "addressRegion": "Antioquia",
+      "addressCountry": "CO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "6.2391",
+      "longitude": "-75.5810"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "12:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "13:00",
+        "closes": "19:00"
+      }
+    ],
+    "servesCuisine": ["Italian", "Gelato", "Coffee"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "342"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="navbar" class="navbar">
+    <nav class="navbar__inner">
+      <a href="#" class="navbar__brand" aria-label="Dimaria Gelateria">
+        <svg class="navbar__logo" viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <text x="160" y="68" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="56" fill="#1A1A1A" letter-spacing="2">DIMARIA</text>
+          <text x="160" y="98" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="13" fill="#4A4A4A" letter-spacing="4">GELATO  +  COFFEE</text>
+          <circle cx="138" cy="118" r="6" fill="#008C45"/>
+          <circle cx="160" cy="118" r="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1"/>
+          <circle cx="182" cy="118" r="6" fill="#CD212A"/>
+        </svg>
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="navbar__menu" id="navMenu">
+        <li><a href="#sobre">Nosotros</a></li>
+        <li><a href="#sabores">Sabores</a></li>
+        <li><a href="#cannabis">🌿 Cannabis +18</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#visitanos">Visítanos</a></li>
+        <li><a href="#contacto" class="navbar__cta">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero">
+      <img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?w=1800&q=85&auto=format&fit=crop"
+           alt="" class="hero__bg" aria-hidden="true">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <span class="hero__badge">
+          <span class="dot dot--green"></span>
+          <span class="dot dot--white"></span>
+          <span class="dot dot--red"></span>
+          <span>Auténtico gelato italiano</span>
+        </span>
+
+        <h1 class="hero__title">
+          Pioneros del<br>
+          <em class="hero__title-em">gelato artesanal</em><br>
+          en Medellín
+        </h1>
+
+        <p class="hero__subtitle">
+          Cada día elaboramos nuestro gelato con ingredientes de la más alta calidad.
+          Sin químicos. Sin conservantes. Sin colorantes.
+          <span class="hero__heart">Hecho con amor.</span>
+        </p>
+
+        <div class="hero__ctas">
+          <a href="#visitanos" class="btn btn--primary btn--large">Visítanos en Laureles</a>
+          <a href="https://wa.me/573195350565?text=Hola%20Dimaria!%20Quiero%20saber%20m%C3%A1s%20sobre%20sus%20gelatos"
+             class="btn btn--ghost btn--large" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir por WhatsApp
+          </a>
+        </div>
+
+        <div class="hero__proof">
+          <div class="hero__proof-item">
+            <span class="hero__proof-icon">★★★★★</span>
+            <span>4.9 de 342 reseñas</span>
+          </div>
+          <div class="hero__proof-item">
+            <span class="hero__proof-icon">🌿</span>
+            <span>100% natural</span>
+          </div>
+          <div class="hero__proof-item">
+            <span class="hero__proof-icon">🚴</span>
+            <span>Domicilio por Rappi</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre" class="sobre">
+      <div class="sobre__grid">
+        <div class="sobre__visual">
+          <img src="https://images.unsplash.com/photo-1488900128323-21503983a07e?w=900&q=85&auto=format&fit=crop"
+               alt="Maestro gelatiero preparando gelato artesanal" class="sobre__image" loading="lazy">
+          <div class="sobre__visual-tag">
+            <strong>2015</strong>
+            <span>Pioneros en Medellín</span>
+          </div>
+        </div>
+        <div class="sobre__text">
+          <span class="section__eyebrow">Nuestra historia</span>
+          <h2 class="section__title">Italia llegó a Laureles</h2>
+          <p class="sobre__lead">
+            Dimaria nació para traer el verdadero gelato italiano a Medellín. No el helado industrial cargado de azúcares y químicos, sino el auténtico — denso, cremoso, intenso en sabor.
+          </p>
+          <p>
+            Cada mañana, nuestros maestros gelatieros elaboran cada sabor desde cero. Pistacho de Bronte, avellanas del Piamonte, vainilla de Madagascar, frutas frescas del valle de Aburrá. Recetas tradicionales aprendidas en Italia, adaptadas a los frutos de nuestra tierra.
+          </p>
+          <p>
+            <strong>Sin químicos. Sin conservantes. Sin colorantes artificiales.</strong> Solo ingredientes reales, técnica artesanal y mucho amor en cada cucharada.
+          </p>
+
+          <div class="sobre__pillars">
+            <div class="sobre__pillar">
+              <span class="sobre__pillar-num">100%</span>
+              <span class="sobre__pillar-label">Natural</span>
+            </div>
+            <div class="sobre__pillar">
+              <span class="sobre__pillar-num">28+</span>
+              <span class="sobre__pillar-label">Sabores</span>
+            </div>
+            <div class="sobre__pillar">
+              <span class="sobre__pillar-num">10</span>
+              <span class="sobre__pillar-label">Años de tradición</span>
+            </div>
+          </div>
+
+          <div class="sobre__ctas">
+            <a href="#sabores" class="btn btn--primary">Ver nuestros sabores</a>
+            <a href="https://wa.me/573195350565" class="btn btn--outline" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SABORES ========== -->
+    <section id="sabores" class="sabores">
+      <div class="section__head">
+        <span class="section__eyebrow">Nuestra carta</span>
+        <h2 class="section__title">Sabores que enamoran</h2>
+        <p class="section__subtitle">Recetas italianas, frutas locales y ediciones especiales. Todos elaborados frescos cada día.</p>
+      </div>
+
+      <div class="sabores__tabs" role="tablist">
+        <button class="sabores__tab sabores__tab--active" data-tab="italianos" role="tab">🇮🇹 Clásicos italianos</button>
+        <button class="sabores__tab" data-tab="frutales" role="tab">🍓 Sorbettos & frutales</button>
+        <button class="sabores__tab" data-tab="cannabis" role="tab">🌱 Edición Cannabis +18</button>
+      </div>
+
+      <!-- TAB: Italianos -->
+      <div class="sabores__panel sabores__panel--active" data-panel="italianos">
+        <div class="sabores__grid">
+          <article class="sabor-card sabor-card--featured">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/pistacho.jpg" alt="Gelato Pistacchio di Bronte" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <span class="sabor-card__tag">⭐ Más pedido</span>
+            <h3>Pistacchio di Bronte</h3>
+            <p>El rey verde de Sicilia. Pistachos puros tostados, sin colorantes.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/stracciatella.jpg" alt="Gelato Stracciatella" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Stracciatella</h3>
+            <p>Crema italiana con virutas finas de chocolate negro.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/nocciola.jpg" alt="Gelato Nocciola" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Nocciola</h3>
+            <p>Avellanas tostadas del Piamonte, intensas y cremosas.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/tiramisu.jpg" alt="Gelato Tiramisú" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Tiramisú</h3>
+            <p>Café espresso, mascarpone, cacao y un toque de licor.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/cioccolato-fondente.jpg" alt="Gelato Cioccolato Fondente" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Cioccolato Fondente</h3>
+            <p>Chocolate negro 70%. Profundo, sin azúcar añadida.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Gelato_alle_Mandorle.jpg" alt="Gelato Bacio" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/1/1a/Vanilla_ice_cream.jpg'"></div>
+            <h3>Bacio</h3>
+            <p>Chocolate con avellana entera. Como el famoso bombón italiano.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/crema-italiana.jpg" alt="Gelato Crema Italiana" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Crema Italiana</h3>
+            <p>Yema de huevo, vainilla y ralladura de limón siciliano.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/vaniglia-bourbon.jpg" alt="Gelato Vaniglia Bourbon" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Vaniglia Bourbon</h3>
+            <p>Vainas de vainilla de Madagascar molidas a la vista.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- TAB: Frutales -->
+      <div class="sabores__panel" data-panel="frutales">
+        <div class="sabores__grid">
+          <article class="sabor-card sabor-card--featured">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/limone.jpg" alt="Gelato Limone" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <span class="sabor-card__tag">🍋 Refrescante</span>
+            <h3>Limone</h3>
+            <p>Sorbetto de limón siciliano. Sin lácteos, intensamente cítrico.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/fragola.jpg" alt="Gelato Fragola" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Fragola</h3>
+            <p>Fresa fresca del día, sorbetto natural sin colorantes.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/mango.jpg" alt="Gelato Mango" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Mango</h3>
+            <p>Mango maduro de Antioquia. Tropical y vibrante.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/maracuya.jpg" alt="Gelato Maracuyá" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Maracuyá</h3>
+            <p>Frutta della Passione. Intensamente ácido y aromático.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/coco.jpg" alt="Gelato Coco" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Coco</h3>
+            <p>Pulpa de coco rallado, cremoso y exótico.</p>
+          </article>
+          <article class="sabor-card">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/frutos-rojos.jpg" alt="Gelato Frutos Rojos" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <h3>Frutos Rojos</h3>
+            <p>Mora, fresa y arándano. Sorbetto antioxidante.</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- TAB: Cannabis -->
+      <div class="sabores__panel" data-panel="cannabis">
+        <div class="cannabis-notice">
+          <span class="cannabis-notice__icon">🌱</span>
+          <div>
+            <strong>Edición especial — Solo para mayores de 18 años</strong>
+            <p>Línea limitada con extractos botánicos de cannabis. Disponible solo en local, presentando documento de identidad. Consume con responsabilidad. Conoce más detalles en nuestra <a href="#cannabis">sección dedicada</a>.</p>
+          </div>
+        </div>
+
+        <div class="sabores__grid">
+          <article class="sabor-card sabor-card--cannabis sabor-card--featured">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/pistacchio-cannabis.jpg" alt="Gelato Pistacchio Cannabis" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <span class="sabor-card__tag">🌿 +18</span>
+            <h3>Pistacchio Cannabis</h3>
+            <p>Nuestro icónico pistacho de Bronte con un toque botánico exclusivo.</p>
+          </article>
+          <article class="sabor-card sabor-card--cannabis">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/cioccolato-cannabis.jpg" alt="Gelato Cioccolato Cannabis" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <span class="sabor-card__tag">🌿 +18</span>
+            <h3>Cioccolato Cannabis</h3>
+            <p>Chocolate negro 70% con extracto botánico premium.</p>
+          </article>
+          <article class="sabor-card sabor-card--cannabis">
+            <div class="sabor-card__photo-wrap"><img src="assets/images/vaniglia.jpg" alt="Gelato Vaniglia Cannabis" class="sabor-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+            <span class="sabor-card__tag">🌿 +18</span>
+            <h3>Vaniglia Cannabis</h3>
+            <p>Vainilla Bourbon con notas botánicas suaves y aromáticas.</p>
+          </article>
+        </div>
+
+        <p class="cannabis-disclaimer">
+          * Edición disponible por temporada. Consulta disponibilidad escribiéndonos por WhatsApp.
+        </p>
+      </div>
+
+      <div class="cta-strip">
+        <p>¿Quieres probarlos sin salir de casa?</p>
+        <div class="cta-strip__btns">
+          <a href="https://www.rappi.com.co" class="btn btn--rappi" target="_blank" rel="noopener">Pedir por Rappi</a>
+          <a href="https://wa.me/573195350565?text=Hola%20Dimaria!%20Quiero%20conocer%20los%20sabores%20disponibles%20hoy" class="btn btn--primary" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== POR QUÉ ========== -->
+    <section id="porque" class="porque">
+      <div class="section__head">
+        <span class="section__eyebrow">¿Por qué Dimaria?</span>
+        <h2 class="section__title">Lo que nos hace únicos</h2>
+      </div>
+
+      <div class="porque__grid">
+        <div class="porque-card">
+          <span class="porque-card__icon">🌿</span>
+          <h3>100% Natural</h3>
+          <p>Sin químicos, sin conservantes ni colorantes artificiales. Solo lo que la tierra y la receta italiana piden.</p>
+        </div>
+        <div class="porque-card">
+          <span class="porque-card__icon">☀️</span>
+          <h3>Fresco cada día</h3>
+          <p>Elaboramos cada sabor desde cero todas las mañanas. Sin tandas viejas, sin stock industrial.</p>
+        </div>
+        <div class="porque-card">
+          <span class="porque-card__icon">🇮🇹</span>
+          <h3>Receta italiana auténtica</h3>
+          <p>Técnica aprendida en Italia. Pistacho de Bronte, avellanas del Piamonte, vainilla de Madagascar.</p>
+        </div>
+        <div class="porque-card">
+          <span class="porque-card__icon">🏆</span>
+          <h3>Pioneros en Medellín</h3>
+          <p>Fuimos los primeros en traer el gelato artesanal italiano a la ciudad. Más de una década de oficio.</p>
+        </div>
+        <div class="porque-card">
+          <span class="porque-card__icon">❤️</span>
+          <h3>Hecho con amor</h3>
+          <p>Cada cucharada lleva la pasión de nuestros maestros gelatieros. Eso se siente en el sabor.</p>
+        </div>
+        <div class="porque-card">
+          <span class="porque-card__icon">🚴</span>
+          <h3>Domicilio por Rappi</h3>
+          <p>Pídenos a casa en minutos. Tu gelato favorito directo a la puerta, en empaque térmico.</p>
+        </div>
+      </div>
+
+      <div class="cta-strip">
+        <p>El verdadero gelato italiano te está esperando 🍨</p>
+        <div class="cta-strip__btns">
+          <a href="#visitanos" class="btn btn--primary btn--large">Cómo llegar a Dimaria</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CAFÉ & MARIDAJES ========== -->
+    <section id="cafe" class="cafe">
+      <div class="cafe__grid">
+        <div class="cafe__visual">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Gelato_coffee_flavor_%2842923816875%29.jpg" alt="Affogato — espresso italiano sobre gelato" class="cafe__image" loading="lazy">
+        </div>
+        <div class="cafe__text">
+          <span class="section__eyebrow">Gelato + Coffee</span>
+          <h2 class="section__title">El maridaje perfecto</h2>
+          <p class="cafe__lead">No solo gelato. También café italiano de origen colombiano, preparado al estilo de las mejores cafeterías de Roma.</p>
+
+          <ul class="cafe__list">
+            <li>
+              <strong>Affogato</strong>
+              <span>Espresso doble vertido sobre gelato de crema italiana o vaniglia. Un clásico romano.</span>
+            </li>
+            <li>
+              <strong>Espresso & Cappuccino</strong>
+              <span>Granos colombianos seleccionados, tostado italiano, técnica de barista profesional.</span>
+            </li>
+            <li>
+              <strong>Cono o copa con extras</strong>
+              <span>Acompaña tu gelato con biscotti italiano, salsa de chocolate fundido o frutos secos.</span>
+            </li>
+            <li>
+              <strong>Tortas heladas a pedido</strong>
+              <span>Para cumpleaños y eventos. Encárgala con 48 horas de anticipación.</span>
+            </li>
+          </ul>
+
+          <a href="https://wa.me/573195350565?text=Hola%20Dimaria!%20Quiero%20encargar%20una%20torta%20helada" class="btn btn--primary" target="_blank" rel="noopener">Encargar torta helada</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CANNABIS — SECCIÓN DEDICADA ========== -->
+    <section id="cannabis" class="cannabis">
+      <div class="cannabis__bg-deco" aria-hidden="true">
+        <span>🌿</span><span>🌿</span><span>🌿</span><span>🌿</span><span>🌿</span>
+      </div>
+
+      <div class="cannabis__inner">
+        <div class="cannabis__header">
+          <span class="cannabis__age">+18</span>
+          <span class="section__eyebrow cannabis__eyebrow">Edición especial</span>
+          <h2 class="section__title cannabis__title">
+            Gelato <em>Cannabis</em> de autor
+          </h2>
+          <p class="cannabis__lead">
+            Una colección exclusiva donde el arte gelatiero italiano se encuentra con extractos botánicos de cannabis. Sabores intensos, técnica artesanal y una experiencia sensorial única — solo para mayores de edad.
+          </p>
+        </div>
+
+        <div class="cannabis__pillars">
+          <div class="cannabis__pillar">
+            <span class="cannabis__pillar-icon">🌱</span>
+            <h3>Extractos botánicos premium</h3>
+            <p>Trabajamos con extractos de origen seleccionado, dosificados con precisión por nuestros maestros.</p>
+          </div>
+          <div class="cannabis__pillar">
+            <span class="cannabis__pillar-icon">🎨</span>
+            <h3>Edición limitada</h3>
+            <p>Solo elaboramos pequeñas tandas semanales. Cuando se acaba, se acaba — pregunta por la disponibilidad del día.</p>
+          </div>
+          <div class="cannabis__pillar">
+            <span class="cannabis__pillar-icon">🪪</span>
+            <h3>Solo en local, con identificación</h3>
+            <p>Por política de la casa, esta línea solo se vende en nuestro establecimiento presentando documento. No por Rappi.</p>
+          </div>
+          <div class="cannabis__pillar">
+            <span class="cannabis__pillar-icon">❤️</span>
+            <h3>Consumo responsable</h3>
+            <p>Recomendamos comenzar con porciones pequeñas. Nuestro equipo te orienta sobre el consumo seguro.</p>
+          </div>
+        </div>
+
+        <div class="cannabis__flavors">
+          <h3 class="cannabis__flavors-title">Sabores de la colección</h3>
+
+          <div class="cannabis__flavors-grid">
+            <article class="cannabis-card">
+              <div class="cannabis-card__photo-wrap"><img src="assets/images/pistacchio-cannabis.jpg" alt="Gelato Pistacchio Cannabis" class="cannabis-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+              <div class="cannabis-card__body">
+                <span class="cannabis-card__badge">Más pedido</span>
+                <h4>Pistacchio Cannabis</h4>
+                <p>Nuestro icónico pistacho de Bronte con extracto botánico. Notas verdes profundas y un final relajante.</p>
+              </div>
+            </article>
+
+            <article class="cannabis-card">
+              <div class="cannabis-card__photo-wrap"><img src="assets/images/cioccolato-cannabis.jpg" alt="Gelato Cioccolato Cannabis" class="cannabis-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+              <div class="cannabis-card__body">
+                <h4>Cioccolato Cannabis</h4>
+                <p>Chocolate negro 70% intensificado con notas botánicas. Para los amantes del cacao puro.</p>
+              </div>
+            </article>
+
+            <article class="cannabis-card">
+              <div class="cannabis-card__photo-wrap"><img src="assets/images/vaniglia.jpg" alt="Gelato Vaniglia Cannabis" class="cannabis-card__photo" loading="lazy" onerror="this.onerror=null;this.src='assets/images/vaniglia.jpg'"></div>
+              <div class="cannabis-card__body">
+                <h4>Vaniglia Cannabis</h4>
+                <p>Vainilla Bourbon de Madagascar con un sutil toque herbal. Suave, aromático y elegante.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="cannabis__legal">
+          <strong>⚠️ Aviso legal y consumo responsable</strong>
+          <ul>
+            <li>Producto exclusivo para personas mayores de 18 años. Solicitamos documento de identidad.</li>
+            <li>No conduzcas vehículos ni operes maquinaria después de su consumo.</li>
+            <li>No recomendado para mujeres embarazadas, en periodo de lactancia o personas con condiciones médicas.</li>
+            <li>Los efectos pueden tardar entre 30 y 90 minutos en aparecer. Comienza con porciones pequeñas.</li>
+            <li>Disponibilidad sujeta a stock semanal. Consulta antes de visitarnos.</li>
+          </ul>
+        </div>
+
+        <div class="cannabis__cta">
+          <a href="https://wa.me/573195350565?text=Hola%20Dimaria!%20Quiero%20consultar%20sobre%20la%20edici%C3%B3n%20Cannabis%20%28%2B18%29" class="btn btn--cannabis btn--large" target="_blank" rel="noopener">
+            🌿 Consultar disponibilidad por WhatsApp
+          </a>
+          <p class="cannabis__cta-note">Respondemos en menos de 1 hora · +18 con documento</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALERÍA ========== -->
+    <section id="galeria" class="galeria">
+      <div class="section__head">
+        <span class="section__eyebrow">Galería</span>
+        <h2 class="section__title">Un vistazo a Dimaria</h2>
+      </div>
+
+      <div class="galeria__grid">
+        <div class="galeria__item galeria__item--big">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Stracciatella_in_Firenze.jpg" alt="Vitrina con sabores de gelato Dimaria" loading="lazy">
+        </div>
+        <div class="galeria__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Gelato_al_Pistacchio.jpg" alt="Gelato de pistacho artesanal" loading="lazy">
+        </div>
+        <div class="galeria__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Gelato_al_cioccolato.jpg" alt="Gelato de chocolate fondente" loading="lazy">
+        </div>
+        <div class="galeria__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Gelato_al_Limone.jpg" alt="Sorbetto de limón siciliano" loading="lazy">
+        </div>
+        <div class="galeria__item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Gelato_coffee_flavor_%2842923816875%29.jpg" alt="Affogato con espresso" loading="lazy">
+        </div>
+        <div class="galeria__item galeria__item--wide">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Strawberry_Ice_Cream_with_Strawberries_01.jpg" alt="Gelato de fresa con fruta fresca" loading="lazy">
+        </div>
+      </div>
+
+      <div class="cta-strip">
+        <p>¿Lista o listo para probarlo?</p>
+        <div class="cta-strip__btns">
+          <a href="#visitanos" class="btn btn--primary">Visítanos</a>
+          <a href="https://wa.me/573195350565" class="btn btn--outline" target="_blank" rel="noopener">Pídelo por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RAPPI BANNER ========== -->
+    <section class="rappi">
+      <div class="rappi__inner">
+        <div class="rappi__badge">🚴‍♂️</div>
+        <div class="rappi__content">
+          <span class="section__eyebrow rappi__eyebrow">Domicilios</span>
+          <h2 class="rappi__title">Tu gelato en casa, en minutos</h2>
+          <p>Pídenos por <strong>Rappi</strong> y disfruta el auténtico gelato italiano sin salir de tu hogar. Empaque térmico que conserva la textura artesanal.</p>
+        </div>
+        <a href="https://www.rappi.com.co" class="btn btn--rappi btn--large" target="_blank" rel="noopener">
+          Pedir por Rappi
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== VISÍTANOS ========== -->
+    <section id="visitanos" class="visitanos">
+      <div class="section__head">
+        <span class="section__eyebrow">Visítanos</span>
+        <h2 class="section__title">En el corazón de Laureles</h2>
+        <p class="section__subtitle">Te esperamos con un cono recién hecho.</p>
+      </div>
+
+      <div class="visitanos__grid">
+        <div class="visitanos__map">
+          <iframe src="https://www.google.com/maps?q=Cra+71A+%235-13,+Laureles+-+Estadio,+Medell%C3%ADn,+Antioquia&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Dimaria Gelateria"></iframe>
+        </div>
+
+        <div class="visitanos__info">
+          <div class="info-card">
+            <span class="info-card__icon">📍</span>
+            <h3>Dirección</h3>
+            <p>Cra 71A #5-13<br>Laureles - Estadio<br>Medellín, Antioquia</p>
+          </div>
+
+          <div class="info-card">
+            <span class="info-card__icon">📞</span>
+            <h3>Teléfono</h3>
+            <p><a href="tel:+573195350565">+57 319 535 0565</a></p>
+            <a href="https://wa.me/573195350565" class="info-card__wa" target="_blank" rel="noopener">
+              Escribir por WhatsApp →
+            </a>
+          </div>
+
+          <div class="info-card">
+            <span class="info-card__icon">🕐</span>
+            <h3>Horarios</h3>
+            <ul class="info-card__hours">
+              <li><span>🌞 Lunes a sábado</span><strong>12:00 pm — 9:00 pm</strong></li>
+              <li><span>🌤️ Domingos</span><strong>1:00 pm — 7:00 pm</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <section class="testimonios">
+      <div class="section__head">
+        <span class="section__eyebrow">Lo que dicen</span>
+        <h2 class="section__title">Nuestros clientes</h2>
+      </div>
+
+      <div class="testimonios__grid">
+        <article class="testimonio">
+          <div class="testimonio__stars">★★★★★</div>
+          <p>"El mejor gelato de Medellín, sin discusión. El pistacho es idéntico al que probé en Roma. Vamos cada fin de semana en familia."</p>
+          <footer>
+            <strong>Camila Restrepo</strong>
+            <span>Cliente hace 4 años</span>
+          </footer>
+        </article>
+
+        <article class="testimonio">
+          <div class="testimonio__stars">★★★★★</div>
+          <p>"Increíble que en Laureles tengamos algo así. Se nota que es 100% artesanal — la textura, el sabor, todo. Y atienden con un cariño genuino."</p>
+          <footer>
+            <strong>Andrés Gómez</strong>
+            <span>Foodie paisa</span>
+          </footer>
+        </article>
+
+        <article class="testimonio">
+          <div class="testimonio__stars">★★★★★</div>
+          <p>"Pedimos por Rappi cada semana. Llega en perfecto estado, fresquito. El stracciatella y el limone son nuestros favoritos absolutos."</p>
+          <footer>
+            <strong>María Jaramillo</strong>
+            <span>El Poblado</span>
+          </footer>
+        </article>
+      </div>
+
+      <div class="cta-strip cta-strip--dark">
+        <p>Únete a las cientos de familias paisas que ya disfrutan de Dimaria</p>
+        <div class="cta-strip__btns">
+          <a href="#contacto" class="btn btn--primary btn--large">Contáctanos hoy</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section id="contacto" class="contacto">
+      <div class="contacto__inner">
+        <div class="contacto__text">
+          <span class="section__eyebrow">¿Eventos o pedidos especiales?</span>
+          <h2 class="section__title">Hablemos</h2>
+          <p>¿Cumpleaños, matrimonio, evento corporativo? Llevamos Dimaria a tu celebración con gelato carts, tortas heladas y experiencias personalizadas.</p>
+
+          <ul class="contacto__list">
+            <li>📞 <a href="tel:+573195350565">+57 319 535 0565</a></li>
+            <li>📍 Cra 71A #5-13, Laureles, Medellín</li>
+            <li>✉️ <a href="mailto:hola@dimariagelato.com">hola@dimariagelato.com</a></li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contacto__form" novalidate>
+          <h3>Cuéntanos qué necesitas</h3>
+          <div class="form__group">
+            <input type="text" name="nombre" required placeholder="Tu nombre completo" class="form__input">
+          </div>
+          <div class="form__group">
+            <input type="tel" name="telefono" required placeholder="Tu teléfono" class="form__input">
+          </div>
+          <div class="form__group">
+            <input type="email" name="email" placeholder="Tu correo (opcional)" class="form__input">
+          </div>
+          <div class="form__group">
+            <select name="tipo" required class="form__input form__select">
+              <option value="">¿Qué te interesa?</option>
+              <option value="torta">Torta helada</option>
+              <option value="evento">Evento privado</option>
+              <option value="corporativo">Evento corporativo</option>
+              <option value="catering">Gelato cart / catering</option>
+              <option value="otro">Otra consulta</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <textarea name="mensaje" rows="3" placeholder="Cuéntanos los detalles" class="form__input form__textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+          <div id="formStatus" class="form__status"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== STICKY CTA BAR ========== -->
+  <div class="sticky-cta" id="stickyCta">
+    <a href="tel:+573195350565" class="sticky-cta__btn sticky-cta__btn--call">
+      <span class="sticky-cta__icon">📞</span>
+      <span class="sticky-cta__label">Llamar</span>
+    </a>
+    <a href="https://wa.me/573195350565?text=Hola%20Dimaria!" class="sticky-cta__btn sticky-cta__btn--wa" target="_blank" rel="noopener">
+      <span class="sticky-cta__icon">💬</span>
+      <span class="sticky-cta__label">WhatsApp</span>
+    </a>
+    <a href="https://www.rappi.com.co" class="sticky-cta__btn sticky-cta__btn--rappi" target="_blank" rel="noopener">
+      <span class="sticky-cta__icon">🚴</span>
+      <span class="sticky-cta__label">Rappi</span>
+    </a>
+  </div>
+
+  <!-- ========== FLOATING WHATSAPP ========== -->
+  <a href="https://wa.me/573195350565?text=Hola%20Dimaria!" class="wa-float" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <svg viewBox="0 0 320 140" xmlns="http://www.w3.org/2000/svg" aria-label="Dimaria Gelateria">
+            <text x="160" y="68" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-weight="900" font-size="56" fill="#1A1A1A" letter-spacing="2">DIMARIA</text>
+            <text x="160" y="98" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="13" fill="#4A4A4A" letter-spacing="4">GELATO  +  COFFEE</text>
+            <circle cx="138" cy="118" r="6" fill="#008C45"/>
+            <circle cx="160" cy="118" r="6" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1"/>
+            <circle cx="182" cy="118" r="6" fill="#CD212A"/>
+          </svg>
+        </div>
+        <p>Pioneros del gelato artesanal italiano en Medellín. Hecho con amor desde 2015.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visítanos</h4>
+        <p>Cra 71A #5-13<br>Laureles - Estadio<br>Medellín, Antioquia</p>
+        <p><a href="tel:+573195350565">+57 319 535 0565</a></p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Horarios</h4>
+        <p>🌞 Lun a sáb · 12:00 — 21:00<br>🌤️ Dom · 13:00 — 19:00</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Síguenos</h4>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">📷 Instagram</a>
+          <a href="#" aria-label="Facebook">📘 Facebook</a>
+          <a href="#" aria-label="TikTok">🎵 TikTok</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Dimaria Gelateria — Todos los derechos reservados</p>
+      <p class="footer__disclaimer">* Datos ilustrativos para prototipo. Serán reemplazados con la información real del cliente.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
